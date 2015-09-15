@@ -12,6 +12,8 @@ app.config(function ($routeProvider, $locationProvider) {
 		.when("/", {templateUrl: "views/partials/home.html", controller: "PageCtrl"})
 		// Pages
 		.when("/about", {templateUrl: "views/partials/about.html", controller: "PageCtrl"})
+		.when("/contact", {templateUrl: "views/partials/contact.html", controller: "PageCtrl"})
+		.when("/service", {templateUrl: "views/partials/service.html", controller: "PageCtrl"})
 		.when("/faq", {templateUrl: "views/partials/faq.html", controller: "PageCtrl"})
 		/* etc… routes to other pages… */
 		// Blog
