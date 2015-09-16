@@ -19,7 +19,8 @@ app.config(function ($routeProvider, $locationProvider) {
 		/* etc… routes to other pages… */
 		// Blog
 		.when("/blog", {templateUrl: "views/partials/blog.html", controller: "BlogCtrl"})
-		.when("/blog/post", {templateUrl: "views/partials/blog_item.html", controller: "BlogCtrl"})
+		.when("/blog/article1", {templateUrl: "views/partials/article1.html", controller: "BlogCtrl"})
+		.when("/blog?article2", {templateUrl: "views/partials/article2.html", controller: "BlogCtrl"})
 		// else 404
 		.otherwise("/404", {templateUrl: "views/partials/404.html", controller: "PageCtrl"});
 
