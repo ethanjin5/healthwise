@@ -1,12 +1,17 @@
 <!doctype html>
-<html ng-app>
+<html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
   </head>
-  <body>
-    <div>
-      <input type="text" ng-model="yourName" placeholder="Enter a name here">
-      <h1>Hello, {{ yourName }}!</h1>
-    </div>
+  <body ng-app="mapsApp">
+  	asdf
+    <div  ng-controller="MapCtrl">
+    <div id="map" style="height:420px; width:600px"></div>
+
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+    <script src="assets/js/load-google-map.js"></script>
   </body>
 </html>
