@@ -938,6 +938,9 @@ section {
     position: relative;
     padding: 0px 15px;
 }
+.price-box .price-info .detail-info{
+    height:270px;
+}
 
 .price-box .price-info .price {
 	border-bottom: 1px solid #dadada;
