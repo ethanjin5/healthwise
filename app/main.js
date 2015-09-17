@@ -18,7 +18,8 @@ app.config(function ($routeProvider, $locationProvider) {
 		.when("/blog/article1", {templateUrl: "app/components/home/views/article1.html", controller: "BlogCtrl"})
 		.when("/blog/article2", {templateUrl: "app/components/home/views/article2.html", controller: "BlogCtrl"})
 		// else 404
-		.otherwise("/404", {templateUrl: "app/components/home/views/404.html", controller: "PageCtrl"});
+		//.otherwise("/404", {templateUrl: "app/components/home/views/404.html", controller: "PageCtrl"});
+		.otherwise({redirectTo: '/'});
 
 		$locationProvider.html5Mode(true);
 
