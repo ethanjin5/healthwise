@@ -1,6 +1,6 @@
 
 'use strict';
-var app = angular.module('healthwise', ['ngRoute']);
+var app = angular.module('healthwise', ['ngRoute','appointment']);
 
 app.config(function ($routeProvider, $locationProvider) {
 	$routeProvider
