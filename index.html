@@ -26,9 +26,9 @@
     </head>
 
     <body ng-app="healthwise">
-        <div ng-include='"views/templates/header.html"'></div>
+        <div ng-include='"app/core/templates/header.html"'></div>
         <div ng-view autoscroll="true"></div>
-        <div ng-include='"views/templates/footer.html"'></div>
+        <div ng-include='"app/core/templates/footer.html"'></div>
 
     <!--  Necessary scripts  -->
 
@@ -39,8 +39,8 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/appointment.js"></script>
+    <script src="app/main.js"></script>
+    <script src="app/components/appointment.js"></script>
 
     </body>
 </html>
