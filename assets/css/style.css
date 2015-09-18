@@ -502,6 +502,7 @@ li {
 .section-title {
 	margin-bottom: 5px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .section-sub-title {
@@ -1903,4 +1904,32 @@ Feifan's Personal style
 .fill-info .btn-black {
 	float: right;
 	margin-top: 20px;
+	margin-left:20px;
 }
+
+
+/* For appointment time slot styling*/
+.time-slot .btn-default{ 
+	width:100px;
+}
+.btn-default:nth-child(n+2) {
+    margin-bottom: -1px;
+}
+.time-slot .btn-default:hover{ 
+  background-color: #f2dede;
+  width:100px;
+}
+
+.time-slot input{ 
+  display:none; 
+}
+
+.time-slot input:checked ~ label { 
+  background:#f2dede; 
+}
+.time-slot input:not(:checked) ~ label { 
+  background:#fff;  
+}
+
+
+/* end of appointment time slot style*/
