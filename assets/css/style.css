@@ -262,6 +262,13 @@ html {
 	background-repeat: no-repeat;
 }
 
+#make-appointment-page .page-head {
+	background: url(../img/services-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 #portfolio-page .page-head {
 	background: url(../img/portfolio-bg.jpg);
 	background-size: cover;
@@ -309,7 +316,7 @@ html {
 /* =-=--=-=-=-=-=-==-=-=-=-  2.4 Form   =-=-=-=-==-=-==-====-==-=- */
 
 .form-group {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .form-control {
@@ -1889,4 +1896,9 @@ Feifan's Personal style
 */
 .purple{
     color: #574D86;
+}
+
+.fill-info .btn-black {
+	float: right;
+	margin-top: 20px;
 }
