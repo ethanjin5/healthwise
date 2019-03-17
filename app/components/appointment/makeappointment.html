@@ -66,7 +66,9 @@
                     </div>
                 </div> <!-- /.headline -->
 
-                <div class="row times">
+                <div class="">
+
+                    <md-calendar ng-model="date"></md-calendar>
 
                     <div class="col-xs-3 text-center">
                               {{date | date:'EEEE-yyyy-MM-dd'}}
@@ -92,18 +94,3 @@
     </div> <!--  end of .main-content  -->
 
 </div> <!--  end of #service-page  -->
-
-
-<!-- script for testimonial -->
-<script type="text/javascript">
-    $(document).ready(function() {
-
-        $("#client-speech").owlCarousel({
-         
-            autoPlay: 5000, //Set AutoPlay to 3 seconds
-            stopOnHover: true,
-            singleItem:true
-        });
-
-    });
-</script>
