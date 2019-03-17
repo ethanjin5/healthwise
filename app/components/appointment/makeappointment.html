@@ -66,23 +66,23 @@
                     </div>
                 </div> <!-- /.headline -->
 
-                <div class="">
-
-                    <md-calendar ng-model="date"></md-calendar>
-
-                    <div class="col-xs-3 text-center">
-                              {{date | date:'EEEE-yyyy-MM-dd'}}
-                      <h2>Monday</h2>
-                      
-                      <div class="time-slot">       
-                        <input type="radio" id="monday-9" name="time">
-                        <label for="monday-9" class="btn btn-default">9:00am</label>
-                      </div>
-                      <div class="time-slot">       
-                        <input type="radio" id="monday-10" name="time">
-                        <label for="monday-10" class="btn btn-default">10:00am</label>
-                      </div>
-                    </div>    
+                <div>
+                    <div class="col-xs-5 text-center">
+                        <h3>Date</h3>
+                        <md-calendar ng-model="date"></md-calendar>
+                        {{date | date:'EEEE-yyyy-MM-dd'}}
+                    </div>
+                    <div class="col-xs-7 text-center">
+                        <h3>Time Block</h3>
+                        <div class="time-slot">       
+                            <input type="radio" id="monday-9" name="time">
+                            <label for="monday-9" class="btn btn-default">9:00am</label>
+                        </div>
+                        <div class="time-slot">       
+                            <input type="radio" id="monday-10" name="time">
+                            <label for="monday-10" class="btn btn-default">10:00am</label>
+                        </div>
+                    </div>  
                 </div>
                 <button type="submit" id="submit" name="submit" class="btn btn-black">Make Appointment</button>
                 <button type="reset" id="reset" name="reset" class="btn btn-black">Reset</button>

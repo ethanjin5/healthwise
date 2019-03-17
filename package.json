@@ -1,0 +1,22 @@
+{
+  "name": "healthwise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanjin5/healthwise.git"
+  },
+  "author": "Ethan Jin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanjin5/healthwise/issues"
+  },
+  "homepage": "https://github.com/ethanjin5/healthwise#readme"
+}
